@@ -11,3 +11,9 @@ Memory for better quality textures has also been increased, as the game uses str
 
 If you don't want to change the main menu, then don't copy the "Graphics" archive and the "scripts" folder in the "Menu" folder.
 
+# Screenshots
+![MainMenu](ER_WideScreen_Fix/screenshots/MainMenu.png)
+![Options](ER_WideScreen_Fix/screenshots/Options.png)
+![Gameplay01](ER_WideScreen_Fix/screenshots/Gameplay01.png)
+![Gameplay02](ER_WideScreen_Fix/screenshots/Gameplay02.png)
+![Comparison](ER_WideScreen_Fix/screenshots/Comparison.png)
