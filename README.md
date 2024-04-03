@@ -1,5 +1,5 @@
 # Europe Racer Widescreen Fix
-Widescreen fix for Europe Racer from Davilex Games.
+Widescreen fix for Europe Racer/Europa Raser/Europe Racing/Европейские Гонки from Davilex Games.
 
 This mod allows you to run the game in widescreen resolution.
 The race will run with the resolution of your screen.
