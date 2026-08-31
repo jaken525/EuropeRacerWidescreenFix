@@ -65,12 +65,8 @@ void SetOverlaysPaths16()
 
 void Init()
 {
-	HMONITOR monitor = MonitorFromWindow(hWnd, MONITOR_DEFAULTTONEAREST);
-	MONITORINFO info;
-	info.cbSize = sizeof(MONITORINFO);
-	GetMonitorInfo(monitor, &info);
-	resolutionX = info.rcMonitor.right - info.rcMonitor.left;
-	resolutionY = info.rcMonitor.bottom - info.rcMonitor.top;
+	resolutionX = 1280;
+	resolutionY = 720;
 
 	if (Overlay::GetRatio(resolutionX, resolutionY))
 		SetOverlaysPaths16();

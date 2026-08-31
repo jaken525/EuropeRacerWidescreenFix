@@ -1,0 +1,15 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Release\\Overlay.obj",
+            "outputs": [
+                "Release\\Overlay.h.obj.dt.module.json",
+                "Release\\Overlay.h.obj.dt.d.json",
+                "Release\\ER_WideScreen_Fix.pch"
+            ],
+            "requires": []
+        }
+    ]
+}

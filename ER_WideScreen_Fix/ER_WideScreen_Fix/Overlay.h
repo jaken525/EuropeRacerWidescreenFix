@@ -1,6 +1,8 @@
 #pragma once
 #include <iostream>
 
+#include "../includes/MemoryMgr.h"
+
 namespace OverlayOffsets
 {
 	constexpr auto ovl_gen = 0x607D76;
@@ -15,6 +17,13 @@ struct Overlay
 {
 	static int GetRatio(int resolutionX, int resolutionY)
 	{
+		float aspectRatio = 16.0f / (static_cast<float>(resolutionX) / (static_cast<float>(resolutionY) / 9.0f));
+		Memory::Patch<float>(0x67430F07, aspectRatio);
+		Memory::Patch<float>(0x5D015D68, aspectRatio);
+		Memory::Patch<float>(0x5D015D70, aspectRatio);
+		Memory::Patch<float>(0x5D015D78, aspectRatio);
+		Memory::Patch<float>(0x5D015D80, aspectRatio);
+		Memory::Patch<float>(0x5D015D88, aspectRatio);
 		if ((resolutionX / 4) == (resolutionY / 3))
 			return 0;
 		if ((resolutionX / 16) == (resolutionY / 9))

@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/ER_WideScreen_Fix/.vs/ER_WideScreen_Fix
+/ER_WideScreen_Fix/.vs
+/ER_WideScreen_Fix/x64
+/ER_WideScreen_Fix/Release
+/ER_WideScreen_Fix/ER_WideScreen_Fix/x64/Debug
