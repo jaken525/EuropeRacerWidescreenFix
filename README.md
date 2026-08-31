@@ -1,10 +1,12 @@
 # Europe Racer Widescreen Fix
-Widescreen fix for Europe Racer from Davilex Games.
+Widescreen fix for Europe Racer/Europa Raser/Europe Racing/Европейские Гонки from Davilex Games.
 
 This mod allows you to run the game in widescreen resolution.
 The race will run with the resolution of your screen.
 The main menu is only in 1280x720. The backgrounds are tailored for this resolution.
 Memory for better quality textures has also been increased, as the game uses stripped-down versions of them.
+
+The mod is used to work: [Ultimate ASI Loader](https://github.com/ThirteenAG/Ultimate-ASI-Loader)
 
 # Installation
 - Extract all files to the root folder of the game.
